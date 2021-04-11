@@ -7,6 +7,7 @@ import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Resume from "./components/pages/Resume";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
       </Switch>
+      <Footer />
     </>
   );
 }

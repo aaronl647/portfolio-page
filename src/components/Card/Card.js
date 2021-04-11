@@ -5,13 +5,13 @@ import "./Card.css";
 function Card() {
   return (
     <div className="cards">
-      <h1> PROJECTS</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src=""
-              text="Monthly Budgeting App"
+              src="images/finances.jpg"
+              text="Monthly Budgeting App &nbsp; "
+              description="The idea for this project came from a book."
               label="MERN Stack Project"
               path="/projects"
             />

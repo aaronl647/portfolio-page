@@ -7,7 +7,6 @@ video {
 }
 
 .main-container {
-  /* background-image: url(); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,6 +40,11 @@ video {
 
 .main-btn .btn {
   margin: 6px;
+}
+
+.text-container {
+  width: 50%;
+  text-align: center;
 }
 
 @media screen and (max-width: 960px) {

@@ -18,39 +18,40 @@
 }
 
 .about {
-  /* background-image: url("siteImages/fabric.jpg"); */
+  background-image: url("./assets/glasses.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 130px;
 }
 
 .projects {
-  /* background-image: url("siteImages/blueFabric.jpg"); */
+  background: url("./assets/codeScreen.jpg");
+  background-color: #ececec;
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 130px;
 }
 
 .contact {
-  /* background-image: url("siteImages/redFabric.jpg"); */
+  background-image: url("./assets/layout.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 130px;
 }
 
 .resume {
-  /* background-image: url("siteImages/redFabric.jpg"); */
+  background-image: url("./assets/desk.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 130px;
 }
 
 @media screen and (max-width: 960px) {
