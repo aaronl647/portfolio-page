@@ -43,7 +43,7 @@ const ContactForm = () => {
             <div>
               <label htmlFor="message">Message: </label>
               <br />
-              <input type="text" id="message" required />
+              <textarea type="text" id="message" required />
             </div>
             <br />
             <button type="submit">{status}</button>
