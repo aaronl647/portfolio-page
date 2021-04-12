@@ -1,0 +1,13 @@
+.form-container {
+  padding: 110px 0 150px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-container {
+  padding: 60px 0 0 0;
+}
+.input-section {
+  display: flex;
+  justify-content: center;
+}

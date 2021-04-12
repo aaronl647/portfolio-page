@@ -1,22 +1,29 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import "./Sections.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+
 function AboutSection() {
   return (
     <>
-      <div className="about-container">
-        <p className="about-content">Test</p>
-      </div>
-      <div className="social-links">
-        <Link
-          to="https://github.com/aaronl647"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={["fab", "fa-github"]} />
-        </Link>
-      </div>
+      <Container className="section-container">
+        <Row>
+          <Col className="about-container">
+            <p className="about-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+              fugiat labore assumenda minima odio debitis totam reiciendis ex
+              quia itaque explicabo illo delectus voluptate, accusamus incidunt!
+              Aspernatur quis dicta voluptatum.
+            </p>
+          </Col>
+          <Col className="profile-container">
+            <img
+              className="profile-picture"
+              src="/images/me.jpg"
+              alt="Profile Picture"
+            />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }

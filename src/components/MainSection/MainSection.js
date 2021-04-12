@@ -27,14 +27,14 @@ function MainSection() {
             buttonStyle="btn--primary"
             buttonSize="btn--large"
           >
-            PROJECTS
+            Projects
           </Button>
           <Button
             className="btn"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
           >
-            CONTACT
+            Contact
           </Button>
         </div>
       </div>

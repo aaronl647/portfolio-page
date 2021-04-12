@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  /* background: #ececec; */
+  background: #ececec;
 }
 
 h1 {
@@ -98,6 +98,12 @@ h1 {
   color: #252e48;
   font-size: 18px;
   text-align: center;
+}
+
+.item__details > p {
+  font-size: 8;
+  color: #000;
+  padding: 20px 100px 20px;
 }
 
 @media only screen and (min-width: 1200px) {

@@ -1,8 +1,44 @@
-.about-container {
-  text-align: center;
-  width: 50%;
+.section-container {
+  padding: 150px 0 150px 0;
 }
 
-.social-links {
-  color: #000;
+.about-container {
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  padding: 50px 0 50px 0;
+  margin: 75px 0 75px 0;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.profile-picture {
+  max-width: 40%;
+}
+
+@media screen and (max-width: 960px) {
+  .section-container {
+    padding: 150px 0 150px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-picture {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 786px) {
 }

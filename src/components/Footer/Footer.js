@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../Button/Button";
+// import { Button } from "../Button/Button";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -7,47 +7,29 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">Paragraph 1</p>
-        <p className="footer-subscription-text">Paragraph 2</p>
-        <div className="input-area">
-          <form>
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              className="footer-input"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
-          </form>
-        </div>
+        <p className="footer-subscription-heading">
+          Thanks for checking out my portfolio!
+        </p>
+        <p className="footer-subscription-text">
+          Feel free to connect with me!
+        </p>
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/">How it Works</Link>
-            <Link to="/">Socials</Link>
-            <Link to="/">Testimonials</Link>
+            <Link to="/about">
+              <h2>About</h2>
+            </Link>
           </div>
           <div className="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/">How it Works</Link>
-            <Link to="/">Socials</Link>
-            <Link to="/">Testimonials</Link>
-          </div>
-        </div>
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/">How it Works</Link>
-            <Link to="/">Socials</Link>
-            <Link to="/">Testimonials</Link>
+            <Link to="/contact">
+              <h2>Contact</h2>
+            </Link>
           </div>
           <div className="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/">How it Works</Link>
-            <Link to="/">Socials</Link>
-            <Link to="/">Testimonials</Link>
+            <Link to="/resume">
+              <h2>Rėsumė</h2>
+            </Link>
           </div>
         </div>
       </div>
@@ -55,7 +37,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              This Is Art
+              A. Lei
             </Link>
           </div>
           <small className="website-rights">
@@ -63,23 +45,23 @@ function Footer() {
           </small>
           <div className="social-icons">
             <a
-              className="social-icon-link facebook"
+              className="social-icon-link github"
               href="https://github.com/aaronl647"
               target="_blank"
               rel="noreferrer"
-              aria-label="Facebook"
+              aria-label="github"
             >
               <i className="fab fa-github"></i>
             </a>
-            <Link
-              className="social-icon-link instagram"
-              to="/"
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.linkedin.com/in/aaronl647/"
               target="_blank"
               rel="noreferrer"
-              aria-label="Instagram"
+              aria-label="linkedin"
             >
-              <i className="fab fa-instagram"></i>
-            </Link>
+              <i className="fab fa-linkedin"></i>
+            </a>
           </div>
         </div>
       </section>
@@ -88,3 +70,15 @@ function Footer() {
 }
 
 export default Footer;
+
+//  <div className="input-area">
+//    <form>
+//      <input
+//        type="email"
+//        name="email"
+//        placeholder="Your Email"
+//        className="footer-input"
+//      />
+//      <Button buttonStyle="btn--outline">Connect</Button>
+//    </form>
+//  </div>;

@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "../CardItem/CardItem";
 import "./Card.css";
+import Button from "../Button/Button";
 
 function Card() {
   return (
@@ -10,10 +11,10 @@ function Card() {
           <ul className="cards__items">
             <CardItem
               src="images/finances.jpg"
-              text="Monthly Budgeting App &nbsp; "
-              description="The idea for this project came from a book."
-              label="MERN Stack Project"
-              path="/projects"
+              text=""
+              description=""
+              label="Monthly Budgeting App"
+              path="https://github.com/aaronl647/monthlyBudgetApp"
             />
           </ul>
         </div>

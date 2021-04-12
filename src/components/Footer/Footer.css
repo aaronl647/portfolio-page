@@ -48,6 +48,7 @@
 
 .footer-link-wrapper {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .footer-link-items {
@@ -110,7 +111,7 @@
 
 .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 240px;
 }
