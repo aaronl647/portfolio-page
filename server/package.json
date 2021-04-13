@@ -1,8 +1,0 @@
-{
-  "name": "server",
-  "version": "1.0.0",
-  "description": "Email functionality for portfolio website",
-  "main": "server.js",
-  "author": "aaron lei",
-  "license": "MIT"
-}
