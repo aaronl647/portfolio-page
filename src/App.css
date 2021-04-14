@@ -69,4 +69,20 @@
 }
 
 @media screen and (max-width: 786px) {
+  .home,
+  .about,
+  .shop,
+  .contact,
+  .collections {
+    display: flex;
+    height: 80vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+  html {
+    max-width: fit-content;
+  }
 }

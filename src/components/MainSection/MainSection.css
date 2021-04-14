@@ -43,9 +43,17 @@ video {
   margin: 6px;
 }
 
+.title-container {
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
+}
+
 .text-container {
   width: 50%;
+  font-size: 20px;
   text-align: center;
+  color: #fff;
 }
 
 @media screen and (max-width: 960px) {
@@ -66,10 +74,16 @@ video {
   .btn-mobile {
     display: block;
     justify-content: center;
-
     text-decoration: none;
   }
   .btn {
     width: 100%;
+    text-align: center;
+  }
+  .title-container {
+    font-size: 60px;
+  }
+  .text-container {
+    font-size: 15px;
   }
 }

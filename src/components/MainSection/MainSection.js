@@ -12,14 +12,11 @@ function MainSection() {
     <div>
       <div className="main-container">
         <video src="/videos/video2.mov" autoPlay loop muted />
-        <div
-          className="title-container"
-          style={{ fontSize: 100, color: "#fff" }}
-        >
+        <div className="title-container">
           <ReactJsTyping StringList={list} speed={10000000} />
         </div>
-        <div className="text-container" style={{ fontSize: 20, color: "#fff" }}>
-          <ReactJsTyping StringList={about} speed={20000} />
+        <div className="text-container">
+          <ReactJsTyping StringList={about} speed={200000} />
         </div>
         <div className="main-btn">
           <Button

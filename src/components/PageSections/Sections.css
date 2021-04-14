@@ -47,4 +47,8 @@
 }
 
 @media screen and (max-width: 786px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
