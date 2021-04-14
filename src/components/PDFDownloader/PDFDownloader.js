@@ -7,7 +7,9 @@ function PDFDownloader(props) {
     <>
       <div className="pdf-container">
         <div className="button-container">
-          <a href={pdf}>Download a Copy Here!</a>
+          <a href={pdf} target="_blank">
+            Download a Copy Here!
+          </a>
         </div>
       </div>
     </>
