@@ -1,12 +1,18 @@
+/* About Section */
 .section-container {
-  padding: 150px 0 150px 0;
+  padding: 60px 0 10px 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .about-container {
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  text-align: left;
   flex-wrap: nowrap;
-  padding: 50px 0 50px 0;
   margin: 75px 0 75px 0;
 }
 
@@ -19,6 +25,13 @@
 .profile-picture {
   max-width: 40%;
 }
+
+.sign-off {
+  display: flex;
+  justify-content: end;
+}
+
+/* Resume Section */
 .resume-container {
   background-color: #ececec;
   padding: 100px 0 0 0;
@@ -34,15 +47,16 @@
   }
   .about-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
   }
 
   .profile-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
   }
   .profile-picture {
-    max-width: 80%;
+    max-width: 75%;
+    display: flex;
   }
 }
 

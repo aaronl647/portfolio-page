@@ -41,7 +41,7 @@ function Footer() {
             </Link>
           </div>
           <small className="website-rights">
-            :3: <i class="far fa-copyright"></i> 2021
+            Aaron Lei <i class="far fa-copyright"></i> 2021
           </small>
           <div className="social-icons">
             <a
