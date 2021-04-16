@@ -1,7 +1,6 @@
 import React from "react";
 import CardItem from "../CardItem/CardItem";
 import "./Card.css";
-import Button from "../Button/Button";
 
 function Card() {
   return (
@@ -11,8 +10,6 @@ function Card() {
           <ul className="cards__items">
             <CardItem
               src="images/finances.jpg"
-              text=""
-              description=""
               label="Monthly Budgeting App"
               path="https://github.com/aaronl647/monthlyBudgetApp"
             />

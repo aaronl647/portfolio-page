@@ -135,21 +135,21 @@
 
 @media screen and(max-width: 820px) {
   .footer-container {
-    color: hotpink;
+    width: auto;
   }
   .footer-links {
     padding-top: 1rem;
+    align-items: center;
   }
-  .footer-input {
-    width: 80%;
-  }
-  .btn {
-    width: 80%;
-  }
+
   .footer-link-wrapper {
-    flex-direction: column;
+    flex-direction: row;
   }
   .social-icon-wrap {
     flex-direction: column;
+  }
+  .social-logo {
+    display: flex;
+    font-size: 18px;
   }
 }

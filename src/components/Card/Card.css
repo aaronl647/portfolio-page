@@ -98,6 +98,7 @@ h1 {
   color: #252e48;
   font-size: 18px;
   text-align: center;
+  display: flex;
 }
 
 .item__details > p {
@@ -108,18 +109,30 @@ h1 {
 
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
-    width: 84%;
+    /* width: 84%; */
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .cards__items {
-    display: flex;
+    /* display: flex; */
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
+@media only screen and (max-width: 476px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+  .cards__items {
+    display: block;
+    flex-direction: row;
+    width: 75%;
+  }
+  .cards__item__info {
+    width: 50%;
+    align-items: center;
+  }
+  .card__item__buttons {
   }
 }

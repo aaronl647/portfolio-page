@@ -1,3 +1,16 @@
 .card__item__wrapper {
   display: flex;
+  justify-content: space-between;
+}
+
+.card__item__info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__item {
+    width: 50%;
+    height: 50%;
+  }
 }

@@ -28,7 +28,7 @@ function CardItem(props) {
                 >
                   View Code
                 </Button>
-
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <Button
                   onClick={() => {
                     window.open(
