@@ -1,5 +1,4 @@
 import React from "react";
-// import { Button } from "../Button/Button";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -22,8 +21,8 @@ function Footer() {
             </Link>
           </div>
           <div className="footer-link-items">
-            <Link to="/contact">
-              <h2>Contact</h2>
+            <Link to="/projects">
+              <h2>Projects</h2>
             </Link>
           </div>
           <div className="footer-link-items">
