@@ -24,6 +24,7 @@
   text-decoration: none;
   font-size: 2rem;
   display: flex;
+  justify-content: center;
   text-align: center;
   align-items: center;
 }
@@ -46,13 +47,20 @@
   justify-content: end;
   margin-right: 2rem;
   top: 0;
+  color: #fff;
   z-index: 999;
 }
 
 .nav-item {
   height: 80px;
+  align-items: center;
 }
-
+a {
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+}
 .nav-links {
   color: #fff;
   display: flex;
