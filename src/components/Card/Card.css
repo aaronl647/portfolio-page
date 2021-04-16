@@ -12,7 +12,7 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -108,31 +108,14 @@ h1 {
 }
 
 @media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    /* width: 84%; */
-  }
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards__items {
-    /* display: flex; */
-  }
 }
 
 @media only screen and (max-width: 476px) {
-  .cards {
+  .card-container {
     display: flex;
-    justify-content: center;
-  }
-  .cards__items {
-    display: block;
-    flex-direction: row;
-    width: 75%;
-  }
-  .cards__item__info {
-    width: 50%;
-    align-items: center;
-  }
-  .card__item__buttons {
+    flex-direction: column;
   }
 }
