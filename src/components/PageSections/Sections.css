@@ -16,6 +16,10 @@
   margin: 75px 0 75px 0;
 }
 
+.about-wrapper {
+  padding: 0 40px;
+}
+
 .profile-container {
   display: flex;
   justify-content: center;
